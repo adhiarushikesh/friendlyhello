@@ -1,9 +1,12 @@
 # friendlyhello
-friendly ello
+friendly hello
 
 #Dockerfile
 #App.py
 #requirenments.txt
+#Dockerfile-visualizer
+#Dockerfile-redis
+#command to deploy 
 
-#cammond to deploy 
+
 
