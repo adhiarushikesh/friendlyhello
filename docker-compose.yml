@@ -2,7 +2,7 @@ version: "3"
 services:
   web:
   #your image detials 
-  image: adhiar/friendlyhello:hub1
+  image: adhiar/fhello:latest
   deploy:
     replicas: 5
     resources:
@@ -12,7 +12,7 @@ services:
     restart_policy:
       condition: on-failure
     ports:
-      - "3001:80"
+      - "4000:80"
     network:
       - webnet
 networks:
